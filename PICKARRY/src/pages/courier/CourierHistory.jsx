@@ -1523,10 +1523,10 @@ Generated on: ${new Date().toLocaleString()}
 
                     {activeTab === 'history' && (
                       <div className="history-order-actions">
-                        <div className="order-earnings">
+                        {/* <div className="order-earnings">
                           <span className="earnings-label">Earnings:</span>
                           <span className="earnings-value">₱{order.earnings}</span>
-                        </div>
+                        </div> */}
                         <button
                           className={`remarks-button ${remarks[order.id] ? 'has-remarks' : ''}`}
                           onClick={() => openRemarksModal(order, remarks[order.id])}
